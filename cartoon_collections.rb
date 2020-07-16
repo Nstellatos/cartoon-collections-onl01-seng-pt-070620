@@ -15,7 +15,7 @@ end
 
 
 def long_planeteer_calls(calls_long)
-  # Your code here
+  calls_long.include?(TRUE)
 end
 
 def find_the_cheese# code an argument here
