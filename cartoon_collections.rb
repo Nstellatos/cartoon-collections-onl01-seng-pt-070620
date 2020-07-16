@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map!{|name| name.capitalize}
-  return "#{planeteer_calls}!"
+  #{planeteer_calls} + !
   
 end
 
